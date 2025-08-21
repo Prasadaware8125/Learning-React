@@ -15,58 +15,69 @@ function App() {
         gap-3 shadow-lg bg-white px-3 py-2 rounded-4xl">
           <button
           onPointerEnter={() => setColor("red")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 
           rounded-full text-white shadow-lg"
           style={{backgroundColor:"red"}}
           >Red</button>
 
           <button 
-          onClick={() => setColor("blue")}
+          onPointerEnter={() => setColor("blue")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"blue"}}>Blue</button>
 
           <button 
-          onClick={()=> setColor("green")}
+          onPointerEnter={() => setColor("green")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"green"}}>Green</button>
 
           <button 
-          onClick={()=> setColor("olive")}
+          onPointerEnter={() => setColor("olive")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"olive"}}>Olive</button>
 
           <button 
-          onClick={()=> setColor("gray")}
+          onPointerEnter={() => setColor("gray")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"gray"}}>Gray</button>
 
           <button 
-          onClick={()=> setColor("yellow")}
+          onPointerEnter={() => setColor("yellow")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-black shadow-lg"
           style={{backgroundColor:"yellow"}}>Yellow</button>
 
           <button 
-          onClick={()=> setColor("pink")}
+          onPointerEnter={() => setColor("pink")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"pink"}}>Pink</button>
 
           <button 
-          onClick={()=> setColor("purple")}
+          onPointerEnter={() => setColor("purple")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"purple"}}>Purple</button>
 
           <button 
-          onClick={()=> setColor("lavender")}
+          onPointerEnter={() => setColor("lavender")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-black shadow-lg"
           style={{backgroundColor:"lavender"}}>Lavender</button>
 
           <button 
-          onClick={()=> setColor("white")}
+          onPointerEnter={() => setColor("white")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-black shadow-lg"
           style={{backgroundColor:"white"}}>White</button>
 
           <button 
-          onClick={()=> setColor("black")}
+          onPointerEnter={() => setColor("black")}
+          onPointerOut={() => setColor("#123456")}
           className="outline-none px-4 py-1 rounded-full text-white shadow-lg"
           style={{backgroundColor:"black"}}>Black</button>
           
